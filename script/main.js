@@ -183,7 +183,7 @@ const animationTimeline = () => {
     )
     .from(
       ".girl-dp",
-      0.5,
+      2.5,
       {
         scale: 3.5,
         opacity: 0,
