@@ -24,9 +24,9 @@ confirmNameButton.addEventListener('click', function () {
     // 隐藏名字输入框，显示表白内容
     nameInputContainer.style.display = 'none';
     // 隐藏新增的链接元素
-    xiaohongshuLink.style.display = 'none';
-    douyinLink.style.display = 'none';
-    repoLink.style.display = 'none';
+    // xiaohongshuLink.style.display = 'none';
+    // douyinLink.style.display = 'none';
+    // repoLink.style.display = 'none';
     confessionContainer.style.display = 'block';
     // 给按钮容器添加动画类名
     buttonsContainer.classList.add('slide-up-fade-in');
