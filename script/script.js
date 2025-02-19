@@ -8,9 +8,9 @@ let mainImage = document.getElementById('mainImage');
 let nameInputContainer = document.getElementById('nameInputContainer');
 let confessionContainer = document.getElementById('confessionContainer');
 let buttonsContainer = document.querySelector('.buttons');
-let xiaohongshuLink = document.getElementById('xiaohongshuLink');
-let douyinLink = document.getElementById('douyinLink');
-let repoLink = document.getElementById('repoLink');
+// let xiaohongshuLink = document.getElementById('xiaohongshuLink');
+// let douyinLink = document.getElementById('douyinLink');
+// let repoLink = document.getElementById('repoLink');
 
 // 显示名字输入框
 nameInputContainer.style.display = 'block';

@@ -55,14 +55,14 @@ body {
     align-items: center;
 }
 
-#xiaohongshuLink,
+/* #xiaohongshuLink,
 #douyinLink,
 #repoLink {
     font-size: 2vw;
     color: #68495b;
     text-decoration: none;
     margin-top: 5px;
-}
+} */
 
 /* 标题样式 */
 h1 {
