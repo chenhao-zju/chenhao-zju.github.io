@@ -11,6 +11,7 @@ let buttonsContainer = document.querySelector('.buttons');
 // let xiaohongshuLink = document.getElementById('xiaohongshuLink');
 // let douyinLink = document.getElementById('douyinLink');
 // let repoLink = document.getElementById('repoLink');
+let messageElement = document.getElementById("message");
 
 // 显示名字输入框
 nameInputContainer.style.display = 'block';
@@ -37,7 +38,7 @@ confirmNameButton.addEventListener('click', function () {
         // 将用户名添加到问题文本
         questionText.innerText = `可以成为我的恋人吗？${safeUsername}`;
     } else {
-        nameInput.textContent = "输入的名字不正确，请再试一次。";
+        messageElement.textContent = "你不是我的爱人，请再试一次。";
     }
     
 });
