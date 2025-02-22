@@ -15,14 +15,7 @@ let buttonsContainer = document.querySelector('.buttons');
 // 显示名字输入框
 nameInputContainer.style.display = 'block';
 
-const targetWord = "王茹";  // 请将此处的“目标单词”替换为您希望的目标单词
-
-function checkWord() {
-    const userInput = nameInputContainer.value;
-
-    if (userInput != targetWord) nameInputContainer.textContent = "输入的名字不正确，请再试一次。";
-    
-}
+const targetWord = "王茹"; 
 
 // 确认名字按钮点击事件
 confirmNameButton.addEventListener('click', function () {
@@ -30,6 +23,8 @@ confirmNameButton.addEventListener('click', function () {
     // 限制用户名长度，避免页面样式崩坏
     const maxLength = 20;
     const safeUsername = username? username.substring(0, maxLength) : "";
+
+    if (username != targetWord) nameInput.textContent = "输入的名字不正确，请再试一次。";
     // 隐藏名字输入框，显示表白内容
     nameInputContainer.style.display = 'none';
     // 隐藏新增的链接元素
