@@ -2,10 +2,10 @@
 # Site settings
 title: Hao Chen
 name: Hao Chen
-subtitle:  Master
-email: chen_hao_zju@zju.edu.cn
+subtitle:  PhD Candidate
+email: hchener@connect.ust.hk
 description: >
-   Master
+   PhD Candidate in Computer Science at HKUST. Multi-modal AI, Post-Training, and AI for Weather.
 baseurl: ""
 url: "https://chenhao-zju.github.io/"
 github_username:  chenhao-zju
